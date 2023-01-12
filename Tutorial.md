@@ -13,6 +13,8 @@
 * Open Terminal using Terminal --> New Terminal in the top menu, or by entering Ctrl+Shift+`
 ![Screenshot 2023-01-12 105609](https://user-images.githubusercontent.com/122561679/212157512-515731c9-3ee4-4616-8329-57439246a6a4.png)
 * SSH into the ieng6 machine with this command, where "username" is your username:
-`ssh username@ieng6.ucsd.edu`
+>  `ssh username@ieng6.ucsd.edu`
 * If it is your first time connecting, a message like this will appear. Enter 'yes', then enter your password when prompted
 ![image](https://user-images.githubusercontent.com/122561679/212160052-eb444f60-ad35-47a1-9639-0ad63d560f73.png)
+
+**Step 3: Run some commands**
