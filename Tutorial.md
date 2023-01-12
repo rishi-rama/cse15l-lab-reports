@@ -5,10 +5,11 @@
 **Step 2: Remotely connect using SSH**
 * Find your course specific account by navigating to https://sdacs.ucsd.edu/~icc/index.php
 * Enter your information into the fields:
-![Screenshot 2023-01-12 105609](https://user-images.githubusercontent.com/122561679/212158781-5f46fb1a-c0e1-40e3-bc9f-413e4ef42cad.png)
+![Screenshot 2023-01-12 110829](https://user-images.githubusercontent.com/122561679/212160770-873ea940-39fa-4be8-95df-2f940f272616.png)
 * Select the appropriate course from "Additional Accounts"
 * Copy the username that appears here:
-![Screenshot 2023-01-12 105609](https://user-images.githubusercontent.com/122561679/212159207-44a48aac-10ba-44fd-8a9f-354d2e18547d.png)
+![Screenshot 2023-01-12 111040](https://user-images.githubusercontent.com/122561679/212160690-841c6a79-aaad-4c0f-8626-3897142c6bca.png)
+
 * Open Terminal using Terminal --> New Terminal in the top menu, or by entering Ctrl+Shift+`
 ![Screenshot 2023-01-12 105609](https://user-images.githubusercontent.com/122561679/212157512-515731c9-3ee4-4616-8329-57439246a6a4.png)
 * SSH into the ieng6 machine with this command, where "username" is your username:
