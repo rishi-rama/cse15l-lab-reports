@@ -29,3 +29,5 @@ cd
 cp
 cat
 ```
+
+* When you would like to log out of the server, you can run the command `exit`
