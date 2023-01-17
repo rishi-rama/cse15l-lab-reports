@@ -1,6 +1,6 @@
 # How to log into ieng6
 **Step 1: Install Visual Studio Code**
-* Download VS Code for your operatings system from their [website](https://code.visualstudio.com/download)
+* Download VS Code for your operating system from their [website](https://code.visualstudio.com/download)
 * Click on the file to install it and follow its instructions
 
 **Step 2: Remotely connect using SSH**
