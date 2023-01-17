@@ -12,6 +12,7 @@
 ![Screenshot 2023-01-12 111040](https://user-images.githubusercontent.com/122561679/212160690-841c6a79-aaad-4c0f-8626-3897142c6bca.png)
 * Click the "change your password" button
 * Once you've entered your new password, select the last field and press enter
+* Open Visual Studio Code
 * Open Terminal using Terminal --> New Terminal in the top menu, or by entering Ctrl+Shift+`
 ![Screenshot 2023-01-12 105609](https://user-images.githubusercontent.com/122561679/212157512-515731c9-3ee4-4616-8329-57439246a6a4.png)
 * SSH into the ieng6 machine with this command, where "username" is your username:
