@@ -21,7 +21,7 @@
 * If it is your first time connecting, a message like this will appear. Enter 'yes', then enter your password when prompted
 ![image](https://user-images.githubusercontent.com/122561679/212160052-eb444f60-ad35-47a1-9639-0ad63d560f73.png)
 * You should see a message like this, which confirms you have logged in successfully
-* ![image](https://user-images.githubusercontent.com/122561679/212801846-6ea4a109-688d-4afa-b484-1bede1aaabdf.png)
+![image](https://user-images.githubusercontent.com/122561679/212801846-6ea4a109-688d-4afa-b484-1bede1aaabdf.png)
 
 
 **Step 3: Run some commands**
