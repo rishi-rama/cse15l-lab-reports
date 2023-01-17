@@ -22,3 +22,10 @@
 
 
 **Step 3: Run some commands**
+* Now that you're logged in, you can try running some commands, such as:
+```
+ls
+cd
+cp
+cat
+```
