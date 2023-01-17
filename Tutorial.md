@@ -4,7 +4,7 @@
 * Click on the file to install it and follow its instructions
 
 **Step 2: Remotely connect using SSH**
-* Find your course specific account by navigating to https://sdacs.ucsd.edu/~icc/index.php
+* Find your course specific account by navigating to the [Account Lookup Tool](https://sdacs.ucsd.edu/~icc/index.php)
 * Enter your information into the fields:
 ![Screenshot 2023-01-12 110829](https://user-images.githubusercontent.com/122561679/212160770-873ea940-39fa-4be8-95df-2f940f272616.png)
 * Select the appropriate course from "Additional Accounts"
