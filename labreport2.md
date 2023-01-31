@@ -79,3 +79,5 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 The problem with the prior buggy code is that it once it reaches the halfway point of arr[], it fails because it looks at the values of arr[] which it changed itself. In order to fix this, I created a temp array tempArr[] which is a copy of the non reversed arr[]. Then, using these original values the values of arr[] are appropriately ordered.
+## Part 3
+I learned the correct vocabulary used to diagnose issues in my code, such as the difference between symptoms and bugs. Prior to this I was not aware of the difference between these words, and my strategy for debugging was mainly just trying random different inputs to see what happened in my code. I learned how JUnit can be an effective tool in organizing my debugging efforts, as well as tracking the output of my code in case something breaks as I add code. Furthermore, I learned how to create a local web server in VS Code, which was not something I knew before.
