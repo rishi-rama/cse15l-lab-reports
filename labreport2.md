@@ -8,7 +8,7 @@ This shows me adding the first string:
 * The `storage` string begins as empty
 * Then, the `handleRequest` method is called with the argument being the url, `http://localhost:4000/add-message?s=This%20is%20my%20first%20string!`
 * After this, the relevant field changed is `input`, which becomes `This is my first string!`
-* The value of `input` is appended to the `storage` string. Now the `storage string` is equal to
+* The value of `input` is appended to the `storage` string. Now the `storage` string is equal to
 ```
 This is my first string!
 ```
