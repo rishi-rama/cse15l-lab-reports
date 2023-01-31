@@ -6,10 +6,19 @@ This shows me adding the first string:
 * The `storage` string begins as empty
 * First, the `handleRequest` method is called with the argument being the url, `http://localhost:4000/add-message?s=This%20is%20my%20first%20string!`
 * After this, the relevant field changed is `input`, which becomes `This is my first string!`
-* The value of "input" is appended to the storage string. Now the storage string is equal to "This is my first string!"
+* The value of `input` is appended to the `storage` string. Now the `storage string` is equal to
+```
+
+This is my first string!
+```
 
 ![image](https://user-images.githubusercontent.com/122561679/215655785-03f410a7-ebe6-44e2-914c-fe819f9f41fe.png)
-* The `storage` string begins as empty
-* First, the `handleRequest` method is called with the argument being the url, "http://localhost:4000/add-message?s=and%20now,%20I%27m%20adding%20a%20second%20one"
-* After this, the relevant field changed is "input", which becomes "This is my first string!"
-* The value of "input" is appended to the storage string. Now the storage string is equal to "This is my first string!"
+* The `storage` string begins as `This is my first string!`
+* First, the `handleRequest` method is called with the argument being the url, `http://localhost:4000/add-message?s=and%20now,%20I%27m%20adding%20a%20second%20one`
+* After this, the relevant field changed is "input", which becomes "and now, I'm adding a second one"
+* The value of `input` is appended to the `storage` string. Now the `storage` string is equal to
+```
+
+This is my first string!
+and now, I'm adding a second one
+```
