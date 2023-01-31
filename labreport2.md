@@ -28,13 +28,54 @@ and now, I'm adding a second one
 * JUnit test:
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = {1,2,3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3,2,1}, input1);
-	}
+}
 ```
 * Failure-inducing input: {1,2,3}
 * Expected output: {3,2,1}
 * Actual output: {3,2,3}
-* 
+* Screenshot:
+![image](https://user-images.githubusercontent.com/122561679/215666846-1d08d522-ba4c-49fe-8be0-0e9f4fbed0ac.png)
+
+**Non failure-inducing input:**
+* JUnit test:
+```
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = {1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1}, input1);
+}
+```
+* Non failure-inducing input: {1}
+* Expected output: {1}
+* Actual output: {1}
+* Screenshot:
+![image](https://user-images.githubusercontent.com/122561679/215666716-8201a9ab-3fc1-4a7b-9e41-e1affbdb7561.png)
+
+**Fixing Bug:**
+reverseInPlace code before:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+reverseInPlace code after:
+```
+static void reverseInPlace(int[] arr) {
+    int[] tempArr = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      tempArr[i] = arr[i];
+    }
+    for(int i = arr.length-1; i >= 0; i -= 1) {
+      arr[i] = tempArr[arr.length - i -1];
+      
+    }
+}
+```
+The problem with the prior buggy code is that it once it reaches the halfway point of arr[], it fails because it looks at the values of arr[] which it changed itself. In order to fix this, I created a temp array tempArr[] which is a copy of the non reversed arr[]. Then, using these original values the values of arr[] are appropriately ordered.
