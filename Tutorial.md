@@ -28,14 +28,14 @@
 * Now that you're logged in, you can try running some commands, such as:
 
 * `ls`: lists files and directories
-![image](https://user-images.githubusercontent.com/122561679/215671943-68c554f9-507c-4ffd-a770-42699cffa362.png)
+* ![image](https://user-images.githubusercontent.com/122561679/215671943-68c554f9-507c-4ffd-a770-42699cffa362.png)
 * `pwd`: show current working directory
-![image](https://user-images.githubusercontent.com/122561679/215672049-d1f84db4-08e0-482c-aa9b-88aca056ae12.png)
+* ![image](https://user-images.githubusercontent.com/122561679/215672049-d1f84db4-08e0-482c-aa9b-88aca056ae12.png)
 * `cd`: change the current working directory
-![image](https://user-images.githubusercontent.com/122561679/215672356-0f78a837-564c-4d0e-92bb-ecd186e34cbc.png)
+* ![image](https://user-images.githubusercontent.com/122561679/215672356-0f78a837-564c-4d0e-92bb-ecd186e34cbc.png)
 * `cp`: copy files to directory
-![image](https://user-images.githubusercontent.com/122561679/215672507-63967e85-fb1c-4a84-9d9f-db6b584a7469.png)
+* ![image](https://user-images.githubusercontent.com/122561679/215672507-63967e85-fb1c-4a84-9d9f-db6b584a7469.png)
 * `cat`: print contents of one or several files
-![image](https://user-images.githubusercontent.com/122561679/215672587-9f1bedf1-ff74-437e-83e3-1b324f4c0300.png)
+* ![image](https://user-images.githubusercontent.com/122561679/215672587-9f1bedf1-ff74-437e-83e3-1b324f4c0300.png)
 
 * When you would like to log out of the server, you can run the command `exit`
