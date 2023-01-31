@@ -39,3 +39,4 @@
 * ![image](https://user-images.githubusercontent.com/122561679/215672587-9f1bedf1-ff74-437e-83e3-1b324f4c0300.png)
 
 * When you would like to log out of the server, you can run the command `exit`
+* ![image](https://user-images.githubusercontent.com/122561679/215673438-4aa111de-70f2-4e17-a914-0916e84b2abd.png)
