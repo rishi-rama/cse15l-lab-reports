@@ -38,7 +38,7 @@ public void testReverseInPlace() {
 * Failure-inducing input: {1,2,3}
 * Expected output: {3,2,1}
 * Actual output: {3,2,3}
-* :
+* Screenshot:
 ![image](https://user-images.githubusercontent.com/122561679/215666846-1d08d522-ba4c-49fe-8be0-0e9f4fbed0ac.png)
 
 **Non failure-inducing input:**
