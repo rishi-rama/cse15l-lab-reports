@@ -10,7 +10,6 @@ This shows me adding the first string:
 * After this, the relevant field changed is `input`, which becomes `This is my first string!`
 * The value of `input` is appended to the `storage` string. Now the `storage string` is equal to
 ```
-
 This is my first string!
 ```
 
@@ -20,7 +19,6 @@ This is my first string!
 * After this, the relevant field changed is "input", which becomes "and now, I'm adding a second one"
 * The value of `input` is appended to the `storage` string. Now the `storage` string is equal to
 ```
-
 This is my first string!
 and now, I'm adding a second one
 ```
