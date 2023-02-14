@@ -7,6 +7,8 @@ This shows me adding the first string:
 ![image](https://user-images.githubusercontent.com/122561679/215655731-d7490cd0-a1ed-4726-b241-ebf9d3f03da9.png)
 * The `storage` string begins as empty
 * Then, the `handleRequest` method is called with the argument being the url, `http://localhost:4000/add-message?s=This%20is%20my%20first%20string!`
+* getPath() is called with the argument url to check if the path has add-message
+* getQuery() is called to check the query from url and add the string query[1], which is "This is my first string!"  to storage
 * After this, the relevant field changed is `input`, which becomes `This is my first string!`
 * The value of `input` is appended to the `storage` string. Now the `storage` string is equal to
 ```
@@ -16,6 +18,8 @@ This is my first string!
 ![image](https://user-images.githubusercontent.com/122561679/215655785-03f410a7-ebe6-44e2-914c-fe819f9f41fe.png)
 * The `storage` string begins as `This is my first string!`
 * Then, the `handleRequest` method is called with the argument being the url, `http://localhost:4000/add-message?s=and%20now,%20I%27m%20adding%20a%20second%20one`
+* getPath() is called with the argument url to check if the path has add-message
+* getQuery() is called to check the query from url and add the string query[1], which is "and now, I'm adding a second one" to storage
 * After this, the relevant field changed is "input", which becomes "and now, I'm adding a second one"
 * The value of `input` is appended to the `storage` string. Now the `storage` string is equal to
 ```
@@ -53,7 +57,8 @@ public void testReverseInPlace() {
 * Expected output: {1}
 * Actual output: {1}
 * Screenshot:
-![image](https://user-images.githubusercontent.com/122561679/215666716-8201a9ab-3fc1-4a7b-9e41-e1affbdb7561.png)
+![image](https://user-images.githubusercontent.com/122561679/218638240-21e76fe5-c82d-4ebf-90e1-21d59ced3163.png)
+
 
 **Fixing Bug:**
 
