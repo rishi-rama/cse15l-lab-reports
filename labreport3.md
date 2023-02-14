@@ -25,7 +25,6 @@ grep -i "football" written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt
 Football (Soccer)
 The Netherlands are football (soccer) crazy and Ajax is the Amsterdam team, one of the most successful in Europe over the last 30 years. They play at the Amsterdam Arena, a fine modern stadium, which is also used for other sporting events — but unfortunately it is almost impossible to obtain tickets for matches.
 ```
-As we can see, without the -i option some of the results would be omitted. 
 ## grep -c
 The -c command outputs a count of the number of matching lines. This is useful because it can tell you how many times a string occurs in a file.
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
