@@ -1,7 +1,7 @@
 # Grep Command-Line Options
 ## grep -i
 The -i command makes the grep search case insensitive, which can be useful because a case sensitive search can miss some matches.
-Source: [Link](https://en.wikibooks.org/wiki/Grep)
+Source: [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 ```
 # Example 1: Input
 grep -i "outrigger" written_2/travel_guides/berlitz1/HandRHawaii.txt
@@ -27,7 +27,7 @@ The Netherlands are football (soccer) crazy and Ajax is the Amsterdam team, one 
 ```
 ## grep -c
 The -c command outputs a count of the number of matching lines. This is useful because it can tell you how many times a string occurs in a file.
-Source: [Link](https://man7.org/linux/man-pages/man1/grep.1.html)
+Source: [man7.org](https://man7.org/linux/man-pages/man1/grep.1.html)
 ```
 # Example 1: Input
 grep -c "Aegean" written_2/travel_guides/berlitz1/IntroGreek.txt
@@ -46,7 +46,7 @@ grep -c "Nile" written_2/travel_guides/berlitz1/IntroEgypt.txt
 ```
 ## grep -n
 The -n adds a prefix to every output line containing its line number. This can be useful if you want to find where an output occurred in a large document.
-Source: [Link](https://man7.org/linux/man-pages/man1/grep.1.html)
+Source: [man7.org](https://man7.org/linux/man-pages/man1/grep.1.html)
 ```
 # Example 1: Input
 grep -n "South Coast" written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt
@@ -69,7 +69,7 @@ grep -n "Yosemite" written_2/travel_guides/berlitz2/California-WhereToGo.txt
 
 ## grep -x
 The -x command only outputs results where the entirety of the line matches
-Source: [Link](https://linux.die.net/man/1/grep)
+Source: [linux.die.net](https://linux.die.net/man/1/grep)
 ```
 # Example 1: Input
 grep -x "Downtown" written_2/travel_guides/berlitz2/California-WhereToGo.txt
