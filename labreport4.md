@@ -1,11 +1,13 @@
 # Lab Report 4
 **4: ssh into ieng6**
+
 Keys pressed:  `<up><enter>`
 The command `ssh cs15lwi23aqn@ieng6.ucsd.edu` was 1 up in the search history, so I pressed the up arrow once to access it. Then I pressed enter to execute it
 ![image](https://user-images.githubusercontent.com/122561679/221721302-034f31f8-2c82-4b50-b4ae-857b4aec747c.png)
 
 
 **5-9: Run tests and fix**
+
 Keys pressed: `<up><up><enter>`
 
 
